@@ -32,21 +32,21 @@ output2.innerHTML = "The sum of 5 + 7 = 12"
 }
 
 
-function math4(){
+function greetings(){
 
     let output2 = document.querySelector("#output2");
 output2.innerHTML = ""
 }
 
 
-function math4(){
+function MATH(){
 
     let output2 = document.querySelector("#output2");
 output2.innerHTML = ""
 }
 
 
-function math4(){
+function favColor(){
 
     let output2 = document.querySelector("#output2");
 output2.innerHTML = ""
@@ -76,4 +76,19 @@ sayHello();
 
                 document.querySelector(".math4").addEventListener("click", function(){
 add 5, 7;
+              }); 
+
+
+                 document.querySelector(".greetings").addEventListener("click", function(){
+"Hello, <name>! 👋 Welcome to the world of JavaScript.";
+              }); 
+
+
+                 document.querySelector(".MATH").addEventListener("click", function(){
+"The area of a 10x6 rectangle is <value>> square units."
+              }); 
+
+
+   document.querySelector(".favColor").addEventListener("click", function(){
+"Your favorite color is <color>! 🎨.";
               }); 

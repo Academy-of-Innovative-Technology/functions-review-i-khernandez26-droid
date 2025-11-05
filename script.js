@@ -1,14 +1,14 @@
 // ===== FUNCTIONS WITH NO PARAMETERS ===== //
 
-function sayhello(){
+function sayHello(){
 
     let output1 = document.querySelector("#output1");
-output1.innerHTML = "Hello Jaslene! 👋 Welcome to JAVAScript functions review. "
+output1.innerHTML = "Hello <name>! 👋 Welcome to JAVAScript functions review. "
 }
 
-function Date(){
+function showDate(){
  let output1 = document.querySelector("#output1");
-output1.innerHTML = "Current Date."
+output1.innerHTML = "11/5/2025"
 }
 
 function motivation1(){
@@ -18,7 +18,7 @@ output1.innerHTML = "You got this!"
 
 function rep(){
 let output1 = document.querySelector("#output1");
-output1.innerHTML = "Represent your culture."
+output1.innerHTML = "Represent your culture! 🇵🇷 "
 }
 
 
@@ -35,60 +35,44 @@ output2.innerHTML = "The sum of 5 + 7 = 12"
 function greetings(){
 
     let output2 = document.querySelector("#output2");
-output2.innerHTML = ""
+output2.innerHTML = "Hello, Alex! 👋 Welcome to the world of JavaScript."
 }
 
 
 function MATH(){
 
     let output2 = document.querySelector("#output2");
-output2.innerHTML = ""
+output2.innerHTML = "The area of a 10x6 rectangle is <value>> square units."
 }
 
 
 function favColor(){
 
     let output2 = document.querySelector("#output2");
-output2.innerHTML = ""
+output2.innerHTML = "Your favorite color is Blue! 🎨."
 }
 
 
 
 // ===== EVENT LISTENERS THAT CALLS FUNCTIONS ===== //
 
-document.querySelector(".sayHelloBTN").addEventListener("click", function(){
-sayHello(); 
-              });
+document.querySelector(".sayHello").addEventListener("click", sayHello);
 
-    document.querySelector(".DCD").addEventListener("click", function(){
-showDate(); 
-              });
+    document.querySelector(".DCD").addEventListener("click", showDate);
 
-        document.querySelector(".motivation1").addEventListener("click", function(){
-sayHello(); 
-              });
+        document.querySelector(".motivation1").addEventListener("click", motivation1);
               
-            document.querySelector(".rep").addEventListener("click", function(){
-sayHello(); 
-              });    
+            document.querySelector(".rep").addEventListener("click", rep);    
 
 
 
-                document.querySelector(".math4").addEventListener("click", function(){
-add 5, 7;
-              }); 
+document.querySelector(".math4").addEventListener("click", math4); 
 
 
-                 document.querySelector(".greetings").addEventListener("click", function(){
-"Hello, <name>! 👋 Welcome to the world of JavaScript.";
-              }); 
+                 document.querySelector(".greetings").addEventListener("click",greetings); 
 
 
-                 document.querySelector(".MATH").addEventListener("click", function(){
-"The area of a 10x6 rectangle is <value>> square units."
-              }); 
+                 document.querySelector(".MATH").addEventListener("click", MATH); 
 
 
-   document.querySelector(".favColor").addEventListener("click", function(){
-"Your favorite color is <color>! 🎨.";
-              }); 
+   document.querySelector(".favColor").addEventListener("click", favColor); 

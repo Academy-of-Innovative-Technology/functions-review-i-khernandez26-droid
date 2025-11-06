@@ -42,7 +42,7 @@ output2.innerHTML = "Hello, Alex! 👋 Welcome to the world of JavaScript."
 function MATH(){
 
     let output2 = document.querySelector("#output2");
-output2.innerHTML = "The area of a 10x6 rectangle is <value>> square units."
+output2.innerHTML = "The area of a 10x6 rectangle is 60 square units."
 }
 
 
@@ -52,7 +52,10 @@ function favColor(){
 output2.innerHTML = "Your favorite color is Blue! 🎨."
 }
 
-
+ function degrees(){
+    let output2 = document.querySelector("#output2");
+output2.innerHTML = "25°C is 77°F."
+}
 
 // ===== EVENT LISTENERS THAT CALLS FUNCTIONS ===== //
 
@@ -76,3 +79,5 @@ document.querySelector(".math4").addEventListener("click", math4);
 
 
    document.querySelector(".favColor").addEventListener("click", favColor); 
+
+   document.querySelector(".degrees").addEventListener("click", degrees); 

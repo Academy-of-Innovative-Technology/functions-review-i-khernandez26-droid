@@ -59,6 +59,7 @@ output2.innerHTML = "25°C is 77°F."
 
 // ===== EVENT LISTENERS THAT CALLS FUNCTIONS ===== //
 
+
 document.querySelector(".sayHello").addEventListener("click", sayHello);
 
     document.querySelector(".DCD").addEventListener("click", showDate);
